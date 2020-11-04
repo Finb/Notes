@@ -8,7 +8,10 @@ def pods
 end
 
 target 'Notes' do
-    pods
+  pods
 end
 
+target 'NotesTests' do
+  pods
+end
 

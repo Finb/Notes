@@ -16,6 +16,7 @@
 		06C77DA92552848300138D0A /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C77DA82552848300138D0A /* NotesTests.swift */; };
 		06C77DB42552848300138D0A /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C77DB32552848300138D0A /* NotesUITests.swift */; };
 		06C77DCE255286D600138D0A /* RxSwiftOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C77DCD255286D600138D0A /* RxSwiftOperator.swift */; };
+		06C77DDF25528EBC00138D0A /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C77DDE25528EBC00138D0A /* TestError.swift */; };
 		24A63C5FA041ECE240B97E2E /* libPods-NotesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B965C94C23B8D4B38472FAA6 /* libPods-NotesTests.a */; };
 		FF1D09BAE660244C55D9E217 /* libPods-Notes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959214C0C2A8859C0852B58C /* libPods-Notes.a */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		06C77DB32552848300138D0A /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		06C77DB52552848300138D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C77DCD255286D600138D0A /* RxSwiftOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftOperator.swift; sourceTree = "<group>"; };
+		06C77DDE25528EBC00138D0A /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		0D26D9848BEEB314366240DE /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
 		21E7BC910B9632F78E196108 /* Pods-NotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotesTests.release.xcconfig"; path = "Target Support Files/Pods-NotesTests/Pods-NotesTests.release.xcconfig"; sourceTree = "<group>"; };
 		959214C0C2A8859C0852B58C /* libPods-Notes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 		06C77D852552848200138D0A = {
 			isa = PBXGroup;
 			children = (
+				06C77DCC255286BF00138D0A /* ReactiveProgramming */,
 				06C77D902552848200138D0A /* Notes */,
 				06C77DA72552848300138D0A /* NotesTests */,
 				06C77DB22552848300138D0A /* NotesUITests */,
@@ -113,7 +116,6 @@
 		06C77D902552848200138D0A /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				06C77DCC255286BF00138D0A /* RxSwift */,
 				06C77D912552848200138D0A /* AppDelegate.swift */,
 				06C77D932552848200138D0A /* SceneDelegate.swift */,
 				06C77D952552848200138D0A /* ViewController.swift */,
@@ -121,6 +123,7 @@
 				06C77D9A2552848300138D0A /* Assets.xcassets */,
 				06C77D9C2552848300138D0A /* LaunchScreen.storyboard */,
 				06C77D9F2552848300138D0A /* Info.plist */,
+				06C77DDE25528EBC00138D0A /* TestError.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -143,7 +146,15 @@
 			path = NotesUITests;
 			sourceTree = "<group>";
 		};
-		06C77DCC255286BF00138D0A /* RxSwift */ = {
+		06C77DCC255286BF00138D0A /* ReactiveProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				06C77DE62552953A00138D0A /* RxSwift */,
+			);
+			path = ReactiveProgramming;
+			sourceTree = "<group>";
+		};
+		06C77DE62552953A00138D0A /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
 				06C77DCD255286D600138D0A /* RxSwiftOperator.swift */,
@@ -351,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C77D962552848200138D0A /* ViewController.swift in Sources */,
+				06C77DDF25528EBC00138D0A /* TestError.swift in Sources */,
 				06C77D922552848200138D0A /* AppDelegate.swift in Sources */,
 				06C77D942552848200138D0A /* SceneDelegate.swift in Sources */,
 				06C77DCE255286D600138D0A /* RxSwiftOperator.swift in Sources */,

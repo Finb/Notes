@@ -152,7 +152,7 @@ class RxSwiftOperator {
         /*
          
          012
-         0 1 2 3
+          0 1 2 3
          
          1s:     等待 b 序列发送
          2s: 1 0
@@ -508,12 +508,12 @@ class RxSwiftOperator {
          flatMap 0  序列[0 1 2]
          
          flatMap 1  序列[0 1 2 ,
-         0 1 2 ]
+                        0 1 2 ]
          0
          
          1  0
          2  1
-         2
+            2
          
          */
     }
